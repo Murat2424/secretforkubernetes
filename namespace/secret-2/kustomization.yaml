@@ -2,7 +2,7 @@ SecretGenerator:
   - name: mysecret
     envs:
     - ../../secrets/mysecret.yml
-    namespace: namespace/secret-2
+    namespace: secret-2
     type: Opaque
 
 generatorOptions:
