@@ -3,4 +3,4 @@ kind: Kustomization
 
 bases:
   - namespace/secret-1
-  - namespace/secret-2
+  #- namespace/secret-2
