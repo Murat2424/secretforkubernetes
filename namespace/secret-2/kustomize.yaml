@@ -1,0 +1,9 @@
+SecretGenerator:
+  - name: mysecret
+    envs:
+    - ../../secrets/mysecret.yml
+    namespace: namespaces/secret-2
+    type: Opaque
+
+generatorOptions:
+  disableNameSuffixHash: true
